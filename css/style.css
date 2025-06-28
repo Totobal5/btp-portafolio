@@ -1,0 +1,85 @@
+/* Importar fuente de Google Fonts con estilo pixel */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.pixel-body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f0f0f0; /* Un gris claro, típico de interfaces antiguas */
+    color: #000;
+}
+
+/* Estilo de borde pixelado para contenedores */
+.pixel-border {
+    border: 3px solid #000;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #fff !important; /* Forzar fondo blanco */
+    padding: 0;
+    border-radius: 0; /* Quitar bordes redondeados */
+}
+
+.pixel-title {
+    font-size: 1.5rem; /* Tamaño más grande para el título principal */
+    color: #000 !important;
+}
+
+.pixel-nav-link {
+    color: #000 !important;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.pixel-nav-link:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilo para las filas de noticias */
+.news-item {
+    margin-bottom: 1.5rem;
+}
+
+.news-item h5 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.news-item p {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Estilo para el footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.pixel-social-link {
+    color: #000;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+/* Quitar todos los efectos de sombra */
+.shadow, .shadow-sm {
+    box-shadow: none !important;
+}
+
+/* Hacer que las imágenes se vean pixeladas si se escalan */
+img {
+    image-rendering: pixelated;
+}
