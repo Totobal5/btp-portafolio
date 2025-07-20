@@ -19,3 +19,5 @@ Noticias: Guardará los artículos que muestras en la página de inicio.
   - titular
   - contenido
   - fecha_publicacion
+
+  ![alt text](diagrama_tablas.png)
